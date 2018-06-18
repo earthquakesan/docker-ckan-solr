@@ -1,8 +1,8 @@
-FROM solr:5.3
+FROM solr:6.6.4
 
 MAINTAINER Ivan Ermilov <ivan.s.ermilov@gmail.com>
 
-ENV CKAN_VERSION 2.6.0
+ENV CKAN_VERSION 2.8.0
 
 # Install CKAN Solr core
 ADD ckan /ckan-configset
